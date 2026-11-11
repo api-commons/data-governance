@@ -1,0 +1,16 @@
+provider: grist
+apis_io: https://apis.io/providers/grist/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      id: id
+      columns: columns
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/grist-rest-api-openapi.yml#GET /docs/{docId}/tables
+    - openapi/_original/grist-rest-api-openapi.yml#PATCH /docs/{docId}/tables
+    - openapi/_original/grist-rest-api-openapi.yml#POST /docs/{docId}/tables

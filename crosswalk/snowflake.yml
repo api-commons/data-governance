@@ -1,0 +1,21 @@
+provider: snowflake
+apis_io: https://apis.io/providers/snowflake/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      name: name
+      created_at: created_on
+      asset_type: kind
+      columns: columns
+      table_type: table_type
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/table.yaml#DELETE /api/v2/databases/{database}/schemas/{schema}/tables/{name}
+    - openapi/_original/table.yaml#GET /api/v2/databases/{database}/schemas/{schema}/tables
+    - openapi/_original/table.yaml#GET /api/v2/databases/{database}/schemas/{schema}/tables/{name}
+    - openapi/_original/table.yaml#POST /api/v2/databases/{database}/schemas/{schema}/tables
+    - openapi/_original/table.yaml#PUT /api/v2/databases/{database}/schemas/{schema}/tables/{name}

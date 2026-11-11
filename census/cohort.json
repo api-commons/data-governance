@@ -1,0 +1,1115 @@
+[
+ {
+  "slug": "acceldata",
+  "specs": [
+   "openapi/_original/acceldata-administration-api-openapi.json",
+   "openapi/_original/acceldata-catalog-api-openapi.json",
+   "openapi/_original/acceldata-tags-api-openapi.json"
+  ]
+ },
+ {
+  "slug": "alation",
+  "specs": [
+   "openapi/_original/alation-data-catalog-openapi.yaml",
+   "openapi/_original/alation-governance-openapi.yaml",
+   "openapi/_original/alation-lineage-openapi.yaml",
+   "openapi/_original/alation-search-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "altimate-ai",
+  "specs": [
+   "openapi/_original/altimate-ai-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "altr",
+  "specs": [
+   "openapi/_original/altr-access-tokens-openapi.json",
+   "openapi/_original/altr-access-tokens-openapi.yml",
+   "openapi/_original/altr-audit-report-openapi.json",
+   "openapi/_original/altr-audit-report-openapi.yml",
+   "openapi/_original/altr-auto-tagging-openapi.json",
+   "openapi/_original/altr-auto-tagging-openapi.yml",
+   "openapi/_original/altr-classification-openapi.json",
+   "openapi/_original/altr-classification-openapi.yml",
+   "openapi/_original/altr-critical-tokenization-openapi.json",
+   "openapi/_original/altr-critical-tokenization-openapi.yml",
+   "openapi/_original/altr-dam-alerting-openapi.json",
+   "openapi/_original/altr-dam-alerting-openapi.yml",
+   "openapi/_original/altr-dbx-tag-policy-openapi.json",
+   "openapi/_original/altr-dbx-tag-policy-openapi.yml",
+   "openapi/_original/altr-dis-openapi.json",
+   "openapi/_original/altr-dis-openapi.yml",
+   "openapi/_original/altr-mapi-openapi.json",
+   "openapi/_original/altr-mapi-openapi.yml",
+   "openapi/_original/altr-notification-integration-openapi.json",
+   "openapi/_original/altr-notification-integration-openapi.yml",
+   "openapi/_original/altr-query-audits-openapi.json",
+   "openapi/_original/altr-query-audits-openapi.yml",
+   "openapi/_original/altr-query-dashboard-openapi.json",
+   "openapi/_original/altr-query-dashboard-openapi.yml",
+   "openapi/_original/altr-rbac-openapi.json",
+   "openapi/_original/altr-rbac-openapi.yml",
+   "openapi/_original/altr-service-user-openapi.json",
+   "openapi/_original/altr-service-user-openapi.yml",
+   "openapi/_original/altr-sidecar-audit-openapi.json",
+   "openapi/_original/altr-sidecar-audit-openapi.yml",
+   "openapi/_original/altr-sidecar-repo-config-openapi.json",
+   "openapi/_original/altr-sidecar-repo-config-openapi.yml",
+   "openapi/_original/altr-sidecar-telemetry-openapi.json",
+   "openapi/_original/altr-sidecar-telemetry-openapi.yml",
+   "openapi/_original/altr-snowflake-metadata-openapi.json",
+   "openapi/_original/altr-snowflake-metadata-openapi.yml",
+   "openapi/_original/altr-tag-masking-openapi.json",
+   "openapi/_original/altr-tag-masking-openapi.yml",
+   "openapi/_original/altr-tag-refresh-openapi.json",
+   "openapi/_original/altr-tag-refresh-openapi.yml",
+   "openapi/_original/altr-unified-policy-openapi.json",
+   "openapi/_original/altr-unified-policy-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-datazone",
+  "specs": [
+   "openapi/_original/amazon-datazone-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-glue",
+  "specs": [
+   "openapi/_original/amazon-glue-openapi.yml"
+  ]
+ },
+ {
+  "slug": "amazon-lake-formation",
+  "specs": [
+   "openapi/_original/amazon-lake-formation-openapi.yml"
+  ]
+ },
+ {
+  "slug": "aws-glue",
+  "specs": [
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchcreatepartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchdeleteconnection-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchdeletepartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchdeletetable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchdeletetableversion-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetblueprints-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetcrawlers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetcustomentitytypes-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetdataqualityresult-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetdevendpoints-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetjobs-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgettriggers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchgetworkflows-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchstopjobrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-batchupdatepartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-canceldataqualityrulerecommendationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-canceldataqualityrulesetevaluationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-cancelmltaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-cancelstatement-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-checkschemaversionvalidity-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createblueprint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createclassifier-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createconnection-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createcrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createcustomentitytype-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createdatabase-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createdataqualityruleset-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createdevendpoint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createjob-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createmltransform-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createpartitionindex-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createregistry-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createschema-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createscript-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createsecurityconfiguration-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createsession-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createtable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createtrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createuserdefinedfunction-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-createworkflow-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteblueprint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteclassifier-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsforpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletecolumnstatisticsfortable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteconnection-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletecrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletecustomentitytype-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletedatabase-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletedataqualityruleset-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletedevendpoint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletejob-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletemltransform-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletepartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletepartitionindex-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteregistry-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteresourcepolicy-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteschema-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteschemaversions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletesecurityconfiguration-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletesession-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletetable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletetableversion-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deletetrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteuserdefinedfunction-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-deleteworkflow-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getblueprint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getblueprintrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getblueprintruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcatalogimportstatus-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getclassifier-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getclassifiers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcolumnstatisticsforpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcolumnstatisticsfortable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getconnection-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getconnections-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcrawlermetrics-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcrawlers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getcustomentitytype-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdatabase-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdatabases-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdatacatalogencryptionsettings-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdataflowgraph-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdataqualityresult-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdataqualityrulerecommendationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdataqualityruleset-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdataqualityrulesetevaluationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdevendpoint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getdevendpoints-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getjob-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getjobbookmark-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getjobrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getjobruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getjobs-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getmapping-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getmltaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getmltaskruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getmltransform-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getmltransforms-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getpartitionindexes-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getpartitions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getplan-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getregistry-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getresourcepolicies-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getresourcepolicy-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getschema-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getschemabydefinition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getschemaversion-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getschemaversionsdiff-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getsecurityconfiguration-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getsecurityconfigurations-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getsession-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getstatement-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettables-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettableversion-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettableversions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettags-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-gettriggers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getunfilteredpartitionmetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getunfilteredpartitionsmetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getunfilteredtablemetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getuserdefinedfunction-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getuserdefinedfunctions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getworkflow-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getworkflowrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getworkflowrunproperties-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-getworkflowruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-importcatalogtoglue-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listblueprints-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listcrawlers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listcrawls-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listcustomentitytypes-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listdataqualityresults-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listdataqualityrulerecommendationruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listdataqualityrulesetevaluationruns-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listdataqualityrulesets-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listdevendpoints-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listjobs-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listmltransforms-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listregistries-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listschemas-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listschemaversions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listsessions-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-liststatements-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listtriggers-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-listworkflows-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-putdatacatalogencryptionsettings-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-putresourcepolicy-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-putschemaversionmetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-putworkflowrunproperties-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-queryschemaversionmetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-registerschemaversion-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-removeschemaversionmetadata-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-resetjobbookmark-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-resumeworkflowrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-runstatement-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-searchtables-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startblueprintrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startcrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startcrawlerschedule-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startdataqualityrulerecommendationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startdataqualityrulesetevaluationrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startexportlabelstaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startimportlabelstaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startjobrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startmlevaluationtaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startmllabelingsetgenerationtaskrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-starttrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-startworkflowrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-stopcrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-stopcrawlerschedule-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-stopsession-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-stoptrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-stopworkflowrun-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-tagresource-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-untagresource-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateblueprint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateclassifier-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsforpartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatecolumnstatisticsfortable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateconnection-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatecrawler-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatecrawlerschedule-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatedatabase-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatedataqualityruleset-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatedevendpoint-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatejob-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatejobfromsourcecontrol-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatemltransform-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatepartition-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateregistry-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateschema-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatesourcecontrolfromjob-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatetable-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updatetrigger-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateuserdefinedfunction-api-openapi.yml",
+   "openapi/_original/amazon-glue-x-amz-target-awsglue-updateworkflow-api-openapi.yml",
+   "openapi/_original/aws-glue-openapi.yml"
+  ]
+ },
+ {
+  "slug": "bigeye",
+  "specs": [
+   "openapi/_original/bigeye-metadata-openapi.json",
+   "openapi/_original/bigeye-observability-openapi.json",
+   "openapi/_original/bigeye-sensitivity-openapi.json"
+  ]
+ },
+ {
+  "slug": "bigid",
+  "specs": [
+   "openapi/_original/bigid-cluster-analysis-api-openapi.yml",
+   "openapi/_original/bigid-data-catalog-api-openapi.yml",
+   "openapi/_original/bigid-data-posture-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "castoredc",
+  "specs": [
+   "openapi/_original/castoredc-openapi.yml"
+  ]
+ },
+ {
+  "slug": "catalog-guard-api",
+  "specs": [
+   "openapi/_original/catalog-guard-api-catalog-check-openapi.json"
+  ]
+ },
+ {
+  "slug": "cenevo",
+  "specs": [
+   "openapi/_original/cenevo-labguru-v1-openapi.yml",
+   "openapi/_original/cenevo-labguru-v2-openapi.yml"
+  ]
+ },
+ {
+  "slug": "cleanlab",
+  "specs": [
+   "openapi/_original/cleanlab-openapi.yml"
+  ]
+ },
+ {
+  "slug": "coalesce",
+  "specs": [
+   "openapi/_original/coalesce-openapi.json"
+  ]
+ },
+ {
+  "slug": "cohesity",
+  "specs": [
+   "openapi/_original/cohesity-cluster-v1-openapi-original.yml",
+   "openapi/_original/cohesity-cluster-v1-openapi.yml",
+   "openapi/_original/cohesity-cluster-v2-openapi-original.yml",
+   "openapi/_original/cohesity-cluster-v2-openapi.yml",
+   "openapi/_original/cohesity-helios-reporting-openapi-original.yml",
+   "openapi/_original/cohesity-helios-reporting-openapi.yml",
+   "openapi/_original/cohesity-site-continuity-openapi-original.yml",
+   "openapi/_original/cohesity-site-continuity-openapi.yml"
+  ]
+ },
+ {
+  "slug": "collate",
+  "specs": [
+   "openapi/_original/collate-openapi.json"
+  ]
+ },
+ {
+  "slug": "commvault",
+  "specs": [
+   "openapi/_original/commvault-automation-openapi.yml",
+   "openapi/_original/commvault-command-center-openapi.yml",
+   "openapi/_original/commvault-rest-openapi.yml"
+  ]
+ },
+ {
+  "slug": "conduktor",
+  "specs": [
+   "openapi/_original/conduktor-openapi.yml"
+  ]
+ },
+ {
+  "slug": "confluent",
+  "specs": [
+   "openapi/_original/confluent-cloud-full.yaml",
+   "openapi/_original/confluent-cloud-openapi.yaml",
+   "openapi/_original/confluent-metrics-api-openapi.yaml",
+   "openapi/_original/confluent-openapi.yml",
+   "openapi/_original/dek-registry-api-spec.yaml",
+   "openapi/_original/openapi.yaml",
+   "openapi/_original/schema-registry-api-spec.yaml",
+   "openapi/_original/schema-registry-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "confluent-schema-registry",
+  "specs": [
+   "openapi/_original/schema-registry.yml"
+  ]
+ },
+ {
+  "slug": "data-world",
+  "specs": [
+   "openapi/_original/openapi.json"
+  ]
+ },
+ {
+  "slug": "databricks",
+  "specs": [
+   "openapi/_original/databricks-openapi.yml"
+  ]
+ },
+ {
+  "slug": "datafold",
+  "specs": [
+   "openapi/_original/datafold-openapi.json"
+  ]
+ },
+ {
+  "slug": "datahub",
+  "specs": [
+   "openapi/_original/datahub-openapi-openapi.yml"
+  ]
+ },
+ {
+  "slug": "delphix",
+  "specs": [
+   "openapi/_original/delphix-continuous-compliance-openapi.yml",
+   "openapi/_original/delphix-continuous-data-openapi.yml"
+  ]
+ },
+ {
+  "slug": "delx-ai",
+  "specs": [
+   "openapi/_original/delx-ai-commerce-x402-openapi.json",
+   "openapi/_original/delx-ai-protocol-openapi.json"
+  ]
+ },
+ {
+  "slug": "druva",
+  "specs": [
+   "openapi/_original/druva-authentication-openapi-original.json",
+   "openapi/_original/druva-authentication-openapi.json",
+   "openapi/_original/druva-aws-native-openapi-original.json",
+   "openapi/_original/druva-aws-native-openapi.json",
+   "openapi/_original/druva-cloudranger-openapi-original.json",
+   "openapi/_original/druva-cloudranger-openapi.json",
+   "openapi/_original/druva-cyber-resilience-govcloud-authorization-openapi-original.json",
+   "openapi/_original/druva-cyber-resilience-govcloud-authorization-openapi.json",
+   "openapi/_original/druva-cyber-resilience-govcloud-openapi-original.json",
+   "openapi/_original/druva-cyber-resilience-govcloud-openapi.json",
+   "openapi/_original/druva-cyber-resilience-openapi-original.json",
+   "openapi/_original/druva-cyber-resilience-openapi.json",
+   "openapi/_original/druva-enterprise-workloads-govcloud-openapi-original.json",
+   "openapi/_original/druva-enterprise-workloads-govcloud-openapi.json",
+   "openapi/_original/druva-enterprise-workloads-openapi-original.json",
+   "openapi/_original/druva-enterprise-workloads-openapi.json",
+   "openapi/_original/druva-google-workspace-openapi-original.json",
+   "openapi/_original/druva-google-workspace-openapi.json",
+   "openapi/_original/druva-govcloud-authentication-openapi-original.json",
+   "openapi/_original/druva-govcloud-authentication-openapi.json",
+   "openapi/_original/druva-hybrid-workload-govcloud-authentication-openapi-original.json",
+   "openapi/_original/druva-hybrid-workload-govcloud-authentication-openapi.json",
+   "openapi/_original/druva-insync-cloud-openapi-original.json",
+   "openapi/_original/druva-insync-cloud-openapi.json",
+   "openapi/_original/druva-insync-govcloud-openapi-original.json",
+   "openapi/_original/druva-insync-govcloud-openapi.json",
+   "openapi/_original/druva-job-management-cloud-openapi-original.json",
+   "openapi/_original/druva-job-management-cloud-openapi.json",
+   "openapi/_original/druva-job-management-govcloud-openapi-original.json",
+   "openapi/_original/druva-job-management-govcloud-openapi.json",
+   "openapi/_original/druva-microsoft-365-openapi-original.json",
+   "openapi/_original/druva-microsoft-365-openapi.json",
+   "openapi/_original/druva-msp-authentication-openapi-original.json",
+   "openapi/_original/druva-msp-authentication-openapi.json",
+   "openapi/_original/druva-msp-openapi-original.json",
+   "openapi/_original/druva-msp-openapi.json",
+   "openapi/_original/druva-platform-openapi-original.json",
+   "openapi/_original/druva-platform-openapi.json"
+  ]
+ },
+ {
+  "slug": "ensighten",
+  "specs": [
+   "openapi/_original/ensighten-manage-api-apiary-blueprint.json"
+  ]
+ },
+ {
+  "slug": "eu-open-data-portal",
+  "specs": [
+   "openapi/_original/eu-open-data-portal-hub-repo-openapi.yaml",
+   "openapi/_original/eu-open-data-portal-hub-repo-openapi_2.yaml",
+   "openapi/_original/eu-open-data-portal-hub-search-openapi.yaml",
+   "openapi/_original/eu-open-data-portal-hub-search-openapi_2.yaml",
+   "openapi/_original/eu-open-data-portal-hub-statistics-swagger.json",
+   "openapi/_original/eu-open-data-portal-hub-statistics-swagger_2.json",
+   "openapi/_original/eu-open-data-portal-mqa-metrics-cache-openapi.yaml",
+   "openapi/_original/eu-open-data-portal-mqa-metrics-cache-openapi_2.yaml",
+   "openapi/_original/eu-open-data-portal-mqa-reporter-openapi.yaml",
+   "openapi/_original/eu-open-data-portal-mqa-reporter-openapi_2.yaml",
+   "openapi/_original/eu-open-data-portal-mqa-shacl-openapi.yaml",
+   "openapi/_original/eu-open-data-portal-mqa-shacl-openapi_2.yaml"
+  ]
+ },
+ {
+  "slug": "evidently",
+  "specs": [
+   "openapi/_original/evidently-platform-openapi.yml"
+  ]
+ },
+ {
+  "slug": "expanso",
+  "specs": [
+   "openapi/_original/bacalhau-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "experian",
+  "specs": [
+   "openapi/_original/experian-addressvalidation-openapi.json",
+   "openapi/_original/experian-aperture-openapi.json",
+   "openapi/_original/experian-bulkaddress-openapi.json",
+   "openapi/_original/experian-bulkemail-openapi.json",
+   "openapi/_original/experian-bulkphone-openapi.json",
+   "openapi/_original/experian-emailvalidation-openapi.json",
+   "openapi/_original/experian-emailvalidationv2-openapi.json",
+   "openapi/_original/experian-enrichment-openapi.json",
+   "openapi/_original/experian-identityappend-openapi.json",
+   "openapi/_original/experian-phonevalidation-openapi.json",
+   "openapi/_original/experian-reversephoneappend-openapi.json"
+  ]
+ },
+ {
+  "slug": "google-cloud-data-catalog",
+  "specs": [
+   "openapi/_original/google-cloud-data-catalog-openapi.yml"
+  ]
+ },
+ {
+  "slug": "grapes-knowledge-base",
+  "specs": [
+   "openapi/_original/grapes-knowledge-base-openapi.json"
+  ]
+ },
+ {
+  "slug": "grist",
+  "specs": [
+   "openapi/_original/grist-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "honeycomb",
+  "specs": [
+   "openapi/_original/honeycomb-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "humanmirror-fr",
+  "specs": [
+   "openapi/_original/humanmirror-fr-agent-os-openapi.json",
+   "openapi/_original/humanmirror-fr-agent-os-openapi.yml",
+   "openapi/_original/humanmirror-fr-agentops-openapi.json",
+   "openapi/_original/humanmirror-fr-agentops-openapi.yml",
+   "openapi/_original/humanmirror-fr-automata-openapi.json",
+   "openapi/_original/humanmirror-fr-automata-openapi.yml",
+   "openapi/_original/humanmirror-fr-consensus-verify-openapi.json",
+   "openapi/_original/humanmirror-fr-consensus-verify-openapi.yml",
+   "openapi/_original/humanmirror-fr-flow-openapi.json",
+   "openapi/_original/humanmirror-fr-flow-openapi.yml",
+   "openapi/_original/humanmirror-fr-forge-openapi.json",
+   "openapi/_original/humanmirror-fr-forge-openapi.yml",
+   "openapi/_original/humanmirror-fr-magnet-openapi.json",
+   "openapi/_original/humanmirror-fr-magnet-openapi.yml",
+   "openapi/_original/humanmirror-fr-market-openapi.json",
+   "openapi/_original/humanmirror-fr-market-openapi.yml",
+   "openapi/_original/humanmirror-fr-nexus-openapi.json",
+   "openapi/_original/humanmirror-fr-nexus-openapi.yml",
+   "openapi/_original/humanmirror-fr-one-openapi.json",
+   "openapi/_original/humanmirror-fr-one-openapi.yml",
+   "openapi/_original/humanmirror-fr-oracle-openapi.json",
+   "openapi/_original/humanmirror-fr-oracle-openapi.yml",
+   "openapi/_original/humanmirror-fr-outcome-openapi.json",
+   "openapi/_original/humanmirror-fr-outcome-openapi.yml",
+   "openapi/_original/humanmirror-fr-payload-normalizer-openapi.json",
+   "openapi/_original/humanmirror-fr-payload-normalizer-openapi.yml",
+   "openapi/_original/humanmirror-fr-physical-oracle-openapi.json",
+   "openapi/_original/humanmirror-fr-physical-oracle-openapi.yml",
+   "openapi/_original/humanmirror-fr-sanitize-shield-openapi.json",
+   "openapi/_original/humanmirror-fr-sanitize-shield-openapi.yml",
+   "openapi/_original/humanmirror-fr-x402-openapi.json",
+   "openapi/_original/humanmirror-fr-x402-openapi.yml"
+  ]
+ },
+ {
+  "slug": "ibm",
+  "specs": [
+   "openapi/_original/ibm-cloud-iam.yml"
+  ]
+ },
+ {
+  "slug": "immuta",
+  "specs": [
+   "openapi/_original/immuta-marketplace-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "informatica",
+  "specs": [
+   "openapi/_original/informatica-platform-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "instance",
+  "specs": [
+   "openapi/_original/instance-verifier-openapi.json"
+  ]
+ },
+ {
+  "slug": "kickbox",
+  "specs": [
+   "openapi/_original/kickbox-disposable-openapi.json",
+   "openapi/_original/kickbox-openapi.yml"
+  ]
+ },
+ {
+  "slug": "kiteworks",
+  "specs": [
+   "openapi/_original/kiteworks-core-openapi-original.json",
+   "openapi/_original/kiteworks-pubsub-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "lakekeeper",
+  "specs": [
+   "openapi/_original/lakekeeper-catalog-api-openapi.yml",
+   "openapi/_original/lakekeeper-management-api-openapi.yml",
+   "openapi/_original/lakekeeper-management-plus-api-openapi.yml",
+   "openapi/_original/lakekeeper-openapi.yml"
+  ]
+ },
+ {
+  "slug": "lightup",
+  "specs": [
+   "openapi/_original/lightup-dashboard-openapi.json"
+  ]
+ },
+ {
+  "slug": "loqate",
+  "specs": [
+   "openapi/_original/loqate-openapi.json"
+  ]
+ },
+ {
+  "slug": "mailboxlayer",
+  "specs": [
+   "openapi/_original/mailboxlayer-openapi.yml",
+   "openapi/_original/mailboxlayer-swaggerhub-openapi.json"
+  ]
+ },
+ {
+  "slug": "materials-zone",
+  "specs": [
+   "openapi/_original/materials-zone-openapi.json"
+  ]
+ },
+ {
+  "slug": "metaplane",
+  "specs": [
+   "openapi/_original/metaplane-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "microsoft-purview",
+  "specs": [
+   "openapi/_original/microsoft-purview-account-openapi.yml",
+   "openapi/_original/microsoft-purview-catalog-openapi.yml",
+   "openapi/_original/microsoft-purview-data-map-openapi.yml",
+   "openapi/_original/microsoft-purview-data-quality-openapi.yml",
+   "openapi/_original/microsoft-purview-data-security-governance-openapi.yml",
+   "openapi/_original/microsoft-purview-ediscovery-openapi.yml",
+   "openapi/_original/microsoft-purview-information-protection-openapi.yml",
+   "openapi/_original/microsoft-purview-metadata-policies-openapi.yml",
+   "openapi/_original/microsoft-purview-records-management-openapi.yml",
+   "openapi/_original/microsoft-purview-scanning-openapi.yml",
+   "openapi/_original/microsoft-purview-unified-catalog-openapi.yml",
+   "openapi/_original/microsoft-purview-workflow-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mine",
+  "specs": [
+   "openapi/_original/mine-openapi-original.json",
+   "openapi/_original/mine-partners-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "monte-carlo",
+  "specs": [
+   "openapi/_original/monte-carlo-openapi.yml"
+  ]
+ },
+ {
+  "slug": "mparticle",
+  "specs": [
+   "openapi/_original/mparticle-dataplanning-openapi-original.yml",
+   "openapi/_original/mparticle-events-openapi-original.yml",
+   "openapi/_original/mparticle-identity-swagger-original.yml"
+  ]
+ },
+ {
+  "slug": "nasuni",
+  "specs": [
+   "openapi/_original/nasuni-global-file-acceleration-telemetry-openapi.json",
+   "openapi/_original/nasuni-global-file-acceleration-telemetry-openapi.yml",
+   "openapi/_original/nasuni-nasuni-data-service-aws-openapi.json",
+   "openapi/_original/nasuni-nasuni-data-service-aws-openapi.yml",
+   "openapi/_original/nasuni-nasuni-data-service-azure-openapi.json",
+   "openapi/_original/nasuni-nasuni-data-service-azure-openapi.yml",
+   "openapi/_original/nasuni-nmc-v1-0-openapi.json",
+   "openapi/_original/nasuni-nmc-v1-0-openapi.yml",
+   "openapi/_original/nasuni-nmc-v1-1-openapi.json",
+   "openapi/_original/nasuni-nmc-v1-1-openapi.yml",
+   "openapi/_original/nasuni-nmc-v1-2-openapi.json",
+   "openapi/_original/nasuni-nmc-v1-2-openapi.yml",
+   "openapi/_original/nasuni-portal-v0-openapi.json",
+   "openapi/_original/nasuni-portal-v0-openapi.yml"
+  ]
+ },
+ {
+  "slug": "netapp",
+  "specs": [
+   "openapi/_original/netapp-ontap-openapi.yml"
+  ]
+ },
+ {
+  "slug": "neverbounce",
+  "specs": [
+   "openapi/_original/neverbounce-api.json"
+  ]
+ },
+ {
+  "slug": "nexla",
+  "specs": [
+   "openapi/_original/nexla-genai-mcpaas-openapi.json",
+   "openapi/_original/nexla-genai-mcpaas.json",
+   "openapi/_original/nexla-rest-api-openapi.yml",
+   "openapi/_original/nexla-rest-api.yaml"
+  ]
+ },
+ {
+  "slug": "observepoint",
+  "specs": [
+   "openapi/_original/observepoint-grid-reports-api-openapi.yml",
+   "openapi/_original/observepoint-v2-api-openapi.yml",
+   "openapi/_original/observepoint-v3-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "onetrust",
+  "specs": [
+   "openapi/_original/onetrust-ai-governance-openapi.json",
+   "openapi/_original/onetrust-audit-api-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-consent-interfaces-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-consent-management-platform-cmp-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-consent-receipts-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-cookie-consent-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-cookie-consent-swagger-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-cookie-domain-data-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-cross-device-consent-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-mobile-app-consent-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-policy-notice-management-openapi.json",
+   "openapi/_original/onetrust-consent-preferences-universal-consent-preference-management-oas-openapi.json",
+   "openapi/_original/onetrust-data-use-governance-data-catalog-openapi.json",
+   "openapi/_original/onetrust-data-use-governance-data-discovery-openapi.json",
+   "openapi/_original/onetrust-data-use-governance-data-discovery-worker-node-openapi.json",
+   "openapi/_original/onetrust-esg-program-reporting-disclosures-openapi.json",
+   "openapi/_original/onetrust-platform-access-management-openapi.json",
+   "openapi/_original/onetrust-platform-bulk-export-openapi.json",
+   "openapi/_original/onetrust-platform-documents-openapi.json",
+   "openapi/_original/onetrust-platform-integrations-openapi.json",
+   "openapi/_original/onetrust-platform-inventory-openapi.json",
+   "openapi/_original/onetrust-platform-object-manager-openapi.json",
+   "openapi/_original/onetrust-platform-task-management-openapi.json",
+   "openapi/_original/onetrust-platform-user-provisioning-openapi.json",
+   "openapi/_original/onetrust-privacy-automation-assessment-automation-openapi.json",
+   "openapi/_original/onetrust-privacy-automation-data-mapping-automation-openapi.json",
+   "openapi/_original/onetrust-privacy-automation-data-mapping-automation-swagger-openapi.json",
+   "openapi/_original/onetrust-privacy-automation-data-subject-request-dsr-automation-openapi.json",
+   "openapi/_original/onetrust-privacy-automation-incident-management-openapi.json",
+   "openapi/_original/onetrust-referencedocument-gateway-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-audit-management-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-compliance-automation-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-enterprise-policy-management-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-issues-management-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-it-risk-management-openapi.json",
+   "openapi/_original/onetrust-tech-risk-compliance-training-openapi.json",
+   "openapi/_original/onetrust-third-party-management-third-party-risk-management-openapi.json"
+  ]
+ },
+ {
+  "slug": "openaq",
+  "specs": [
+   "openapi/_original/openaq-openapi.yml"
+  ]
+ },
+ {
+  "slug": "opendatasoft",
+  "specs": [
+   "openapi/_original/opendatasoft-explore-api-v2.1.json"
+  ]
+ },
+ {
+  "slug": "openmetadata",
+  "specs": [
+   "openapi/_original/openmetadata-openmetadata-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "opsmill",
+  "specs": [
+   "openapi/_original/opsmill-infrahub-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "orderly-health",
+  "specs": [
+   "openapi/_original/orderly-health-provider-directory-openapi.json"
+  ]
+ },
+ {
+  "slug": "portworx",
+  "specs": [
+   "openapi/_original/portworx-openapi.yml"
+  ]
+ },
+ {
+  "slug": "quantemplate",
+  "specs": [
+   "openapi/_original/quantemplate-fabric-openapi.yml"
+  ]
+ },
+ {
+  "slug": "refuel-ai",
+  "specs": [
+   "openapi/_original/refuel-ai-cloud-api-openapi.json",
+   "openapi/_original/refuel-ai-cloud-api-openapi.yml",
+   "openapi/_original/refuel-ai-openapi.yml"
+  ]
+ },
+ {
+  "slug": "revefi",
+  "specs": [
+   "openapi/_original/revefi-data-quality-monitors-openapi-original.yml"
+  ]
+ },
+ {
+  "slug": "rowguard",
+  "specs": [
+   "openapi/_original/rowguard-openapi.json"
+  ]
+ },
+ {
+  "slug": "salsify",
+  "specs": [
+   "openapi/_original/salsify-api-settings-openapi.json",
+   "openapi/_original/salsify-non-v1-endpoints-openapi.json",
+   "openapi/_original/salsify-write-operations-openapi.json"
+  ]
+ },
+ {
+  "slug": "sap",
+  "specs": [
+   "openapi/_original/sap-ai-core-openapi.yml",
+   "openapi/_original/sap-business-one-service-layer-openapi.yml",
+   "openapi/_original/sap-s4hana-cloud-business-partner-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sapien",
+  "specs": [
+   "openapi/_original/sapien-poq-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "sas",
+  "specs": [
+   "openapi/_original/sas-viya-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "select-star",
+  "specs": [
+   "openapi/_original/select-star-openapi.yml"
+  ]
+ },
+ {
+  "slug": "sifflet",
+  "specs": [
+   "openapi/_original/sifflet-backend-api-readme-slices.json"
+  ]
+ },
+ {
+  "slug": "sigma-computing",
+  "specs": [
+   "openapi/_original/sigma-computing-code-representation-openapi.yaml",
+   "openapi/_original/sigma-computing-public-rest-api-openapi.json",
+   "openapi/_original/sigma-computing-rest-api-openapi.yaml"
+  ]
+ },
+ {
+  "slug": "simba-chain",
+  "specs": [
+   "openapi/_original/simba-chain-member-service-openapi.json",
+   "openapi/_original/simba-chain-member-service-validator-openapi.json"
+  ]
+ },
+ {
+  "slug": "skyvia",
+  "specs": [
+   "openapi/_original/skyvia-public-api-openapi-original.json"
+  ]
+ },
+ {
+  "slug": "snowflake",
+  "specs": [
+   "openapi/_original/account.yaml",
+   "openapi/_original/account_2.yaml",
+   "openapi/_original/alert.yaml",
+   "openapi/_original/alert_2.yaml",
+   "openapi/_original/api-integration.yaml",
+   "openapi/_original/api-integration_2.yaml",
+   "openapi/_original/artifact-repository.yaml",
+   "openapi/_original/catalog-integration.yaml",
+   "openapi/_original/catalog-integration_2.yaml",
+   "openapi/_original/compute-pool.yaml",
+   "openapi/_original/compute-pool_2.yaml",
+   "openapi/_original/cortex-analyst.yaml",
+   "openapi/_original/cortex-analyst_2.yaml",
+   "openapi/_original/cortex-embed.yaml",
+   "openapi/_original/cortex-generic-anthropic.yaml",
+   "openapi/_original/cortex-generic-openai.yaml",
+   "openapi/_original/cortex-inference.yaml",
+   "openapi/_original/cortex-inference_2.yaml",
+   "openapi/_original/cortex-search-service.yaml",
+   "openapi/_original/cortex-search-service_2.yaml",
+   "openapi/_original/database-role.yaml",
+   "openapi/_original/database-role_2.yaml",
+   "openapi/_original/database.yaml",
+   "openapi/_original/database_2.yaml",
+   "openapi/_original/dynamic-table.yaml",
+   "openapi/_original/dynamic-table_2.yaml",
+   "openapi/_original/event-table.yaml",
+   "openapi/_original/event-table_2.yaml",
+   "openapi/_original/external-volume.yaml",
+   "openapi/_original/external-volume_2.yaml",
+   "openapi/_original/function.yaml",
+   "openapi/_original/function_2.yaml",
+   "openapi/_original/grant.yaml",
+   "openapi/_original/grant_2.yaml",
+   "openapi/_original/iceberg-table.yaml",
+   "openapi/_original/iceberg-table_2.yaml",
+   "openapi/_original/image-repository.yaml",
+   "openapi/_original/image-repository_2.yaml",
+   "openapi/_original/managed-account.yaml",
+   "openapi/_original/managed-account_2.yaml",
+   "openapi/_original/network-policy.yaml",
+   "openapi/_original/network-policy_2.yaml",
+   "openapi/_original/network-rule.yaml",
+   "openapi/_original/notebook.yaml",
+   "openapi/_original/notebook_2.yaml",
+   "openapi/_original/notification-integration.yaml",
+   "openapi/_original/notification-integration_2.yaml",
+   "openapi/_original/password-policy.yaml",
+   "openapi/_original/pipe.yaml",
+   "openapi/_original/pipe_2.yaml",
+   "openapi/_original/procedure.yaml",
+   "openapi/_original/procedure_2.yaml",
+   "openapi/_original/result.yaml",
+   "openapi/_original/result_2.yaml",
+   "openapi/_original/role.yaml",
+   "openapi/_original/role_2.yaml",
+   "openapi/_original/schema.yaml",
+   "openapi/_original/schema_2.yaml",
+   "openapi/_original/secret.yaml",
+   "openapi/_original/sequence.yaml",
+   "openapi/_original/service.yaml",
+   "openapi/_original/service_2.yaml",
+   "openapi/_original/snowflake-sql-rest-api.yaml",
+   "openapi/_original/spark-connect.yaml",
+   "openapi/_original/sqlapi.yaml",
+   "openapi/_original/sqlapi_2.yaml",
+   "openapi/_original/stage.yaml",
+   "openapi/_original/stage_2.yaml",
+   "openapi/_original/stream.yaml",
+   "openapi/_original/stream_2.yaml",
+   "openapi/_original/streamlit.yaml",
+   "openapi/_original/table.yaml",
+   "openapi/_original/table_2.yaml",
+   "openapi/_original/tag.yaml",
+   "openapi/_original/task.yaml",
+   "openapi/_original/task_2.yaml",
+   "openapi/_original/user-defined-function.yaml",
+   "openapi/_original/user-defined-function_2.yaml",
+   "openapi/_original/user.yaml",
+   "openapi/_original/user_2.yaml",
+   "openapi/_original/view.yaml",
+   "openapi/_original/view_2.yaml",
+   "openapi/_original/warehouse.yaml",
+   "openapi/_original/warehouse_2.yaml"
+  ]
+ },
+ {
+  "slug": "soda-co",
+  "specs": [
+   "openapi/_original/soda-cloud-rest-api.json"
+  ]
+ },
+ {
+  "slug": "sweep",
+  "specs": [
+   "openapi/_original/sweep-api-openapi.yml",
+   "openapi/_original/sweep-openapi.json"
+  ]
+ },
+ {
+  "slug": "talend",
+  "specs": [
+   "openapi/_original/crawler-openapi.json",
+   "openapi/_original/dataset-openapi.json",
+   "openapi/_original/dynamic-engine-environments-openapi.json",
+   "openapi/_original/dynamic-engine-openapi.json",
+   "openapi/_original/dynamic-engine-openapi.yml",
+   "openapi/_original/execution-history-search-openapi.json",
+   "openapi/_original/ip-allowlist-openapi.json",
+   "openapi/_original/oauth-openapi.json",
+   "openapi/_original/observability-metrics-openapi.json",
+   "openapi/_original/scim-v2-openapi.json",
+   "openapi/_original/seats-and-subscription-openapi.json",
+   "openapi/_original/service-accounts-openapi.json",
+   "openapi/_original/sharing-openapi.json",
+   "openapi/_original/sso-role-mapping-openapi.json",
+   "openapi/_original/talend-orchestration-openapi.yml",
+   "openapi/_original/talend-processing-openapi.yml",
+   "openapi/_original/workspace-permissions-openapi.json"
+  ]
+ },
+ {
+  "slug": "tenyks",
+  "specs": [
+   "openapi/_original/tenyks-openapi.json"
+  ]
+ },
+ {
+  "slug": "teradata",
+  "specs": [
+   "openapi/_original/tdqg-manager-api.yml"
+  ]
+ },
+ {
+  "slug": "tiledb",
+  "specs": [
+   "openapi/_original/tiledb-cloud-v1-openapi.yaml",
+   "openapi/_original/tiledb-cloud-v1-openapi_2.yaml",
+   "openapi/_original/tiledb-cloud-v2-openapi.yaml",
+   "openapi/_original/tiledb-cloud-v2-openapi_2.yaml"
+  ]
+ },
+ {
+  "slug": "transcend-io",
+  "specs": [
+   "openapi/_original/transcend-io-openapi.yml"
+  ]
+ },
+ {
+  "slug": "uchecker",
+  "specs": [
+   "openapi/_original/uchecker-openapi.json"
+  ]
+ },
+ {
+  "slug": "varonis",
+  "specs": [
+   "openapi/_original/varonis-datalert-openapi.yml"
+  ]
+ },
+ {
+  "slug": "veeam",
+  "specs": [
+   "openapi/_original/veeam-backup-aws-openapi.yml",
+   "openapi/_original/veeam-backup-replication-openapi.yml"
+  ]
+ },
+ {
+  "slug": "verato",
+  "specs": [
+   "openapi/_original/verato-organization-openapi.yml",
+   "openapi/_original/verato-person-openapi.yml",
+   "openapi/_original/verato-provider-openapi.yml"
+  ]
+ },
+ {
+  "slug": "vineyard",
+  "specs": [
+   "openapi/_original/vineyard-python-client-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zenodo",
+  "specs": [
+   "openapi/_original/zenodo-rest-api-openapi.yml"
+  ]
+ },
+ {
+  "slug": "zerobounce",
+  "specs": [
+   "openapi/_original/zerobounce-openapi.yml"
+  ]
+ }
+]

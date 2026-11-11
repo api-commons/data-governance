@@ -1,0 +1,63 @@
+provider: microsoft-purview
+apis_io: https://apis.io/providers/microsoft-purview/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - entity
+    properties:
+      id: guid
+      created_at: createTime
+      asset_type: typeName
+      updated_at: updateTime
+      tags:
+      - classifications
+      - labels
+      created_by: createdBy
+      status: status
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#DELETE /api/atlas/v2/entity/bulk
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#GET /api/atlas/v2/entity/bulk
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#POST /api/atlas/v2/entity
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#POST /api/atlas/v2/entity/bulk
+    - openapi/_original/microsoft-purview-data-map-openapi.yml#DELETE /api/atlas/v2/entity/bulk
+  glossary_term:
+    path_segment:
+    - glossary
+    - terms
+    - glossaryterms
+    properties:
+      id:
+      - guid
+      - qualifiedName
+      - id
+      name: name
+      definition:
+      - longDescription
+      - description
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#DELETE /api/atlas/v2/glossary/{glossaryId}
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#GET /api/atlas/v2/glossary
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#GET /api/atlas/v2/glossary/{glossaryId}
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#POST /api/atlas/v2/glossary
+    - openapi/_original/microsoft-purview-catalog-openapi.yml#POST /api/atlas/v2/glossary/terms
+  data_domain:
+    path_segment:
+    - dataproducts
+    properties:
+      name: name
+      id: id
+      description: description
+      updated_at: updatedAt
+      created_at: createdAt
+      owners: owners
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/microsoft-purview-unified-catalog-openapi.yml#DELETE /dataproducts/{dataProductId}
+    - openapi/_original/microsoft-purview-unified-catalog-openapi.yml#GET /dataproducts
+    - openapi/_original/microsoft-purview-unified-catalog-openapi.yml#GET /dataproducts/{dataProductId}
+    - openapi/_original/microsoft-purview-unified-catalog-openapi.yml#PATCH /dataproducts/{dataProductId}
+    - openapi/_original/microsoft-purview-unified-catalog-openapi.yml#POST /dataproducts

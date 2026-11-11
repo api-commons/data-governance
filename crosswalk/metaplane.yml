@@ -1,0 +1,20 @@
+provider: metaplane
+apis_io: https://apis.io/providers/metaplane/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      id: id
+      name: name
+      created_at: createdAt
+      asset_type:
+      - type
+      - entityType
+      description: description
+      updated_at: updatedAt
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/metaplane-api-openapi.yml#POST /v2/monitors/bulk-fetch/tables/{connectionId}

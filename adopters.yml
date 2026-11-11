@@ -1,0 +1,151 @@
+context: data-governance
+generated: '2026-11-11'
+adopters:
+- provider: acceldata
+  apis_io: https://apis.io/providers/acceldata/
+  crosswalk: crosswalk/acceldata.yml
+  concepts:
+  - data_asset
+- provider: alation
+  apis_io: https://apis.io/providers/alation/
+  crosswalk: crosswalk/alation.yml
+  concepts:
+  - data_asset
+- provider: altimate-ai
+  apis_io: https://apis.io/providers/altimate-ai/
+  crosswalk: crosswalk/altimate-ai.yml
+  concepts:
+  - data_asset
+  - glossary_term
+- provider: altr
+  apis_io: https://apis.io/providers/altr/
+  crosswalk: crosswalk/altr.yml
+  concepts:
+  - data_asset
+- provider: amazon-datazone
+  apis_io: https://apis.io/providers/amazon-datazone/
+  crosswalk: crosswalk/amazon-datazone.yml
+  concepts:
+  - data_asset
+  - data_domain
+- provider: bigeye
+  apis_io: https://apis.io/providers/bigeye/
+  crosswalk: crosswalk/bigeye.yml
+  concepts:
+  - data_asset
+- provider: castoredc
+  apis_io: https://apis.io/providers/castoredc/
+  crosswalk: crosswalk/castoredc.yml
+  concepts:
+  - data_domain
+- provider: cohesity
+  apis_io: https://apis.io/providers/cohesity/
+  crosswalk: crosswalk/cohesity.yml
+  concepts:
+  - data_asset
+- provider: collate
+  apis_io: https://apis.io/providers/collate/
+  crosswalk: crosswalk/collate.yml
+  concepts:
+  - data_asset
+  - data_domain
+  - glossary_term
+- provider: confluent
+  apis_io: https://apis.io/providers/confluent/
+  crosswalk: crosswalk/confluent.yml
+  concepts:
+  - data_asset
+- provider: data-world
+  apis_io: https://apis.io/providers/data-world/
+  crosswalk: crosswalk/data-world.yml
+  concepts:
+  - data_asset
+  - glossary_term
+- provider: druva
+  apis_io: https://apis.io/providers/druva/
+  crosswalk: crosswalk/druva.yml
+  concepts:
+  - data_asset
+- provider: grist
+  apis_io: https://apis.io/providers/grist/
+  crosswalk: crosswalk/grist.yml
+  concepts:
+  - data_asset
+- provider: immuta
+  apis_io: https://apis.io/providers/immuta/
+  crosswalk: crosswalk/immuta.yml
+  concepts:
+  - data_asset
+  - data_domain
+- provider: lakekeeper
+  apis_io: https://apis.io/providers/lakekeeper/
+  crosswalk: crosswalk/lakekeeper.yml
+  concepts:
+  - data_asset
+- provider: materials-zone
+  apis_io: https://apis.io/providers/materials-zone/
+  crosswalk: crosswalk/materials-zone.yml
+  concepts:
+  - data_asset
+- provider: metaplane
+  apis_io: https://apis.io/providers/metaplane/
+  crosswalk: crosswalk/metaplane.yml
+  concepts:
+  - data_asset
+- provider: microsoft-purview
+  apis_io: https://apis.io/providers/microsoft-purview/
+  crosswalk: crosswalk/microsoft-purview.yml
+  concepts:
+  - data_asset
+  - data_domain
+  - glossary_term
+- provider: nexla
+  apis_io: https://apis.io/providers/nexla/
+  crosswalk: crosswalk/nexla.yml
+  concepts:
+  - data_domain
+- provider: observepoint
+  apis_io: https://apis.io/providers/observepoint/
+  crosswalk: crosswalk/observepoint.yml
+  concepts:
+  - data_domain
+- provider: onetrust
+  apis_io: https://apis.io/providers/onetrust/
+  crosswalk: crosswalk/onetrust.yml
+  concepts:
+  - data_asset
+  - data_domain
+  - glossary_term
+- provider: opendatasoft
+  apis_io: https://apis.io/providers/opendatasoft/
+  crosswalk: crosswalk/opendatasoft.yml
+  concepts:
+  - data_asset
+- provider: openmetadata
+  apis_io: https://apis.io/providers/openmetadata/
+  crosswalk: crosswalk/openmetadata.yml
+  concepts:
+  - data_asset
+  - data_domain
+  - glossary_term
+- provider: select-star
+  apis_io: https://apis.io/providers/select-star/
+  crosswalk: crosswalk/select-star.yml
+  concepts:
+  - data_asset
+  - glossary_term
+- provider: simba-chain
+  apis_io: https://apis.io/providers/simba-chain/
+  crosswalk: crosswalk/simba-chain.yml
+  concepts:
+  - data_domain
+- provider: snowflake
+  apis_io: https://apis.io/providers/snowflake/
+  crosswalk: crosswalk/snowflake.yml
+  concepts:
+  - data_asset
+- provider: tiledb
+  apis_io: https://apis.io/providers/tiledb/
+  crosswalk: crosswalk/tiledb.yml
+  concepts:
+  - data_asset

@@ -1,0 +1,38 @@
+provider: data-world
+apis_io: https://apis.io/providers/data-world/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      id: id
+      name: title
+      created_at: created
+      description:
+      - description
+      - summary
+      updated_at: updated
+      tags: tags
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/openapi.json#DELETE /metadata/data/sources/{owner}/{sourceid}/tables/{tableid}
+    - openapi/_original/openapi.json#GET /metadata/data/sources/{owner}/{sourceid}/tables
+    - openapi/_original/openapi.json#GET /metadata/data/sources/{owner}/{sourceid}/tables/{tableid}
+    - openapi/_original/openapi.json#PATCH /metadata/data/sources/suggest/{owner}/{sourceid}/tables/{tableid}
+    - openapi/_original/openapi.json#PATCH /metadata/data/sources/{owner}/{sourceid}/tables/{tableid}
+  glossary_term:
+    path_segment:
+    - glossary
+    properties:
+      id: id
+      name: title
+      definition: description
+      tags: tags
+      updated_at: updated
+      created_at: created
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/openapi.json#GET /metadata/glossary/{owner}
+    - openapi/_original/openapi.json#POST /metadata/glossary/{owner}

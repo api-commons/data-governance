@@ -1,0 +1,13 @@
+provider: opendatasoft
+apis_io: https://apis.io/providers/opendatasoft/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - datasets
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/opendatasoft-explore-api-v2.1.json#GET /catalog/datasets
+    - openapi/_original/opendatasoft-explore-api-v2.1.json#GET /catalog/datasets/{dataset_id}

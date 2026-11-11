@@ -1,0 +1,77 @@
+provider: collate
+apis_io: https://apis.io/providers/collate/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - assets
+    - tables
+    - entity
+    properties:
+      id:
+      - id
+      - fullyQualifiedName
+      name:
+      - name
+      - displayName
+      created_at: createdAt
+      asset_type: type
+      description: description
+      updated_at: updatedAt
+      columns: columns
+      tags: tags
+      created_by: createdBy
+      table_type: tableType
+      schema: schema
+      status: status
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/collate-openapi.json#DELETE /v1/tables/{id}
+    - openapi/_original/collate-openapi.json#GET /v1/dataContracts/entity
+    - openapi/_original/collate-openapi.json#GET /v1/dataProducts/name/{fqn}/assets
+    - openapi/_original/collate-openapi.json#GET /v1/dataProducts/{id}/assets
+    - openapi/_original/collate-openapi.json#GET /v1/domains/name/{fqn}/assets
+  glossary_term:
+    path_segment:
+    - glossaries
+    - glossaryterms
+    properties:
+      id:
+      - id
+      - fullyQualifiedName
+      name:
+      - name
+      - displayName
+      definition: description
+      tags: tags
+      updated_at: updatedAt
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/collate-openapi.json#DELETE /v1/glossaries/{id}
+    - openapi/_original/collate-openapi.json#DELETE /v1/glossaryTerms/{id}
+    - openapi/_original/collate-openapi.json#GET /v1/glossaries
+    - openapi/_original/collate-openapi.json#GET /v1/glossaries/{id}
+    - openapi/_original/collate-openapi.json#GET /v1/glossaryTerms
+  data_domain:
+    path_segment:
+    - dataproducts
+    - domains
+    properties:
+      name:
+      - name
+      - displayName
+      id:
+      - id
+      - fullyQualifiedName
+      description: description
+      updated_at: updatedAt
+      owners: owners
+      tags: tags
+    core_coverage: 0.8
+    evidence:
+    - openapi/_original/collate-openapi.json#DELETE /v1/dataProducts/{id}
+    - openapi/_original/collate-openapi.json#DELETE /v1/domains/{id}
+    - openapi/_original/collate-openapi.json#GET /v1/dataProducts
+    - openapi/_original/collate-openapi.json#GET /v1/dataProducts/{id}
+    - openapi/_original/collate-openapi.json#GET /v1/domains

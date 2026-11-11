@@ -1,0 +1,17 @@
+provider: tiledb
+apis_io: https://apis.io/providers/tiledb/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - assets
+    properties:
+      id: uuid
+      name: name
+      created_at: created_at
+      asset_type: asset_type
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/tiledb-cloud-v1-openapi.yaml#GET /assets/{namespace}
+    - openapi/_original/tiledb-cloud-v1-openapi_2.yaml#GET /assets/{namespace}

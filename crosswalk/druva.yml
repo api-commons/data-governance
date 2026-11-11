@@ -1,0 +1,13 @@
+provider: druva
+apis_io: https://apis.io/providers/druva/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - entities
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/druva-msp-openapi-original.json#GET /msp/dataProtection/v1/customers/{customer_global_id}/workloads/{workload_id}/entities
+    - openapi/_original/druva-msp-openapi.json#GET /msp/dataProtection/v1/customers/{customer_global_id}/workloads/{workload_id}/entities

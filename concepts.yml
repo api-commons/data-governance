@@ -1,0 +1,49 @@
+context: data-governance
+name: Data Catalogs and Governance
+intro: >-
+  The common data-catalog vocabulary -- the data assets a catalog holds, the glossary terms and
+  domains that describe them, their owners and their lineage -- distilled from the APIs that already exist.
+tags: [Data Governance, Data Catalog, Data Management, Metadata Management, Data Lineage, Data Quality, Data Observability]
+
+envelope: [_links, _pagination, _results, data, success, errors, count, total, page, meta, links, result, results, entities,
+           value, next, previous, has_more, message, page_info, cursor, total_count, per_page, total_pages, object]
+
+common_fields:
+  id: [uuid, guid, external_id, urn, fqn, fully_qualified_name, qualified_name]
+  created_at: [created, created_date, create_time, creation_time, created_on]
+  updated_at: [updated, modified_at, update_time, last_modified, updated_on]
+  status: [state]
+  name: [title, display_name]
+  description: [desc, summary]
+
+concepts:
+  data_asset:
+    path: /data-assets
+    segments: [assets, asset, entities, entity, tables, table, datasets@catalog|governance, data_assets]
+    aliases:
+      asset_type: [type, type_name, entity_type, kind]
+      owner: [owners, owned_by]
+      tags: [labels, classifications]
+  glossary_term:
+    path: /glossary-terms
+    segments: [glossary, glossaries, terms, glossary_terms, glossaryterms, business_terms]
+    aliases:
+      definition: [description, long_description]
+      synonyms: [aliases]
+  data_domain:
+    path: /data-domains
+    segments: [domains, domain, data_products, dataproducts]
+  # lineage and data_quality_check was measured and dropped: 8 and 4 readable providers; lineage follows OpenLineage events, not a resource.
+
+findings:
+  - >-
+    Data assets -- tables, entities, datasets -- agree on id and name; created_at reaches 48% and
+    asset_type 44%. A catalog's asset is a typed node whose type decides the rest of its shape.
+  - >-
+    The business layer agrees better than the technical one: glossary terms agree on id, name,
+    definition, tags and updated_at. Data domains agree on name, id, description, updated_at and created_at.
+decisions:
+  - >-
+    The fully qualified name, URN or GUID that each catalog uses as the asset key maps to id.
+  - >-
+    Lineage was dropped; it is published as OpenLineage run events, a standard to take in its own pass.

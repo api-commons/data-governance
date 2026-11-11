@@ -1,0 +1,486 @@
+context: data-governance
+name: Data Catalogs and Governance
+generated: '2026-11-11'
+version: 0.1.0-draft.20261111
+status: draft
+cohort:
+  tags:
+  - Data Governance
+  - Data Catalog
+  - Data Management
+  - Metadata Management
+  - Data Lineage
+  - Data Quality
+  - Data Observability
+  providers_with_harvested_openapi: 94
+thresholds:
+  core: 0.5
+  extended: 0.2
+  min_providers: 3
+excluded: {}
+duplicates: {}
+shared_specs: {}
+concepts:
+  data_asset:
+    segments_seen:
+      tables: 12
+      entity: 7
+      assets: 5
+      entities: 4
+      table: 3
+      asset: 1
+      datasets: 1
+    providers_exposing: 23
+    providers_with_readable_schema: 23
+    operations:
+    - operation: GET collection
+      providers: 17
+      share: 0.739
+      tier: core
+    - operation: GET item
+      providers: 16
+      share: 0.696
+      tier: core
+    - operation: POST collection
+      providers: 11
+      share: 0.478
+      tier: extended
+    - operation: DELETE item
+      providers: 10
+      share: 0.435
+      tier: extended
+    - operation: UPDATE item
+      providers: 10
+      share: 0.435
+      tier: extended
+    - operation: UPDATE collection
+      providers: 5
+      share: 0.217
+      tier: extended
+    - operation: POST item
+      providers: 2
+      share: 0.087
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.043
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 16
+      share: 0.696
+      type: string
+      spellings:
+      - id
+      - guid
+      - fullyQualifiedName
+      - uuid
+    - name: name
+      tier: core
+      providers: 16
+      share: 0.696
+      type: string
+      spellings:
+      - name
+      - title
+      - displayName
+      - display_name
+    - name: created_at
+      tier: extended
+      providers: 11
+      share: 0.478
+      type: string
+      spellings:
+      - createdAt
+      - created_at
+      - created_on
+      - created
+      - createTime
+    - name: asset_type
+      tier: extended
+      providers: 10
+      share: 0.435
+      type: string
+      spellings:
+      - type
+      - typeName
+      - entityType
+      - kind
+      - asset_type
+    - name: description
+      tier: extended
+      providers: 10
+      share: 0.435
+      type: string
+      spellings:
+      - description
+      - summary
+    - name: updated_at
+      tier: extended
+      providers: 9
+      share: 0.391
+      type: string
+      spellings:
+      - updatedAt
+      - updated_at
+      - updated
+      - updateTime
+      - updated_on
+    - name: columns
+      tier: extended
+      providers: 7
+      share: 0.304
+      type: array
+      spellings:
+      - columns
+    - name: tags
+      tier: extended
+      providers: 7
+      share: 0.304
+      type: array
+      spellings:
+      - tags
+      - classifications
+      - labels
+    - name: created_by
+      tier: extended
+      providers: 6
+      share: 0.261
+      type: string
+      spellings:
+      - createdBy
+      - created_by
+    - name: table_type
+      tier: extended
+      providers: 6
+      share: 0.261
+      type: string
+      spellings:
+      - table_type
+      - tableType
+    - name: schema
+      tier: extended
+      providers: 5
+      share: 0.217
+      type: array
+      spellings:
+      - schema
+    - name: status
+      tier: extended
+      providers: 5
+      share: 0.217
+      type: string
+      spellings:
+      - status
+    long_tail_count: 308
+    long_tail_sample:
+    - owner
+    - updated_by
+    - attributes
+    - database
+    - domains
+    - location
+    - schema_id
+    - version
+    - abort_reason
+    - bytes
+    - certification
+    - change_description
+    - children
+    - classification_names
+    - collections
+    - compression_codec
+    - compression_enabled
+    - compression_strategy
+    - config
+    - contract_updates
+    - custom_metrics
+    - data_contract
+    - data_model
+    - data_products
+    - data_type
+    - database_name
+    - database_schema
+    - deleted
+    - dry_run
+    - effective_from
+    - effective_until
+    - entity_status
+    - experts
+    - extension
+    - failed_request
+    - fields
+    - file_format
+    - followers
+    - href
+    - impersonated_by
+  glossary_term:
+    segments_seen:
+      terms: 4
+      glossaryterms: 3
+      glossaries: 2
+      glossary: 2
+    providers_exposing: 7
+    providers_with_readable_schema: 7
+    operations:
+    - operation: POST collection
+      providers: 6
+      share: 0.857
+      tier: core
+    - operation: GET collection
+      providers: 5
+      share: 0.714
+      tier: core
+    - operation: GET item
+      providers: 5
+      share: 0.714
+      tier: core
+    - operation: DELETE item
+      providers: 4
+      share: 0.571
+      tier: core
+    - operation: UPDATE item
+      providers: 4
+      share: 0.571
+      tier: core
+    - operation: UPDATE collection
+      providers: 2
+      share: 0.286
+      tier: long-tail
+    - operation: DELETE collection
+      providers: 1
+      share: 0.143
+      tier: long-tail
+    - operation: POST item
+      providers: 1
+      share: 0.143
+      tier: long-tail
+    properties:
+    - name: id
+      tier: core
+      providers: 6
+      share: 0.857
+      type: string
+      spellings:
+      - id
+      - fullyQualifiedName
+      - guid
+      - qualifiedName
+    - name: name
+      tier: core
+      providers: 6
+      share: 0.857
+      type: string
+      spellings:
+      - name
+      - displayName
+      - title
+    - name: definition
+      tier: core
+      providers: 5
+      share: 0.714
+      type: string
+      spellings:
+      - description
+      - longDescription
+    - name: tags
+      tier: core
+      providers: 5
+      share: 0.714
+      type: array
+      spellings:
+      - tags
+    - name: updated_at
+      tier: core
+      providers: 4
+      share: 0.571
+      type: integer
+      spellings:
+      - updatedAt
+      - updated
+      - updated_on
+    - name: created_at
+      tier: extended
+      providers: 3
+      share: 0.429
+      type: string
+      spellings:
+      - created
+      - createdDate
+      - created_on
+    long_tail_count: 98
+    long_tail_sample:
+    - business_owner
+    - certification
+    - change_description
+    - children
+    - children_count
+    - collections
+    - concept_mappings
+    - created_by
+    - data_contract
+    - data_products
+    - deleted
+    - disabled
+    - domains
+    - entity_status
+    - experts
+    - extension
+    - followers
+    - href
+    - impersonated_by
+    - incremental_change_description
+    - iri
+    - life_cycle
+    - mutually_exclusive
+    - owners
+    - parent
+    - provider
+    - references
+    - related_terms
+    - reviewers
+    - service
+    - short_description
+    - status
+    - style
+    - synonyms
+    - technical_owner
+    - term_count
+    - updated_by
+    - usage_count
+    - usage_summary
+    - version
+  data_domain:
+    segments_seen:
+      domains: 8
+      dataproducts: 3
+      domain: 1
+    providers_exposing: 10
+    providers_with_readable_schema: 9
+    operations:
+    - operation: GET collection
+      providers: 9
+      share: 0.9
+      tier: core
+    - operation: GET item
+      providers: 8
+      share: 0.8
+      tier: core
+    - operation: DELETE item
+      providers: 7
+      share: 0.7
+      tier: core
+    - operation: POST collection
+      providers: 7
+      share: 0.7
+      tier: core
+    - operation: UPDATE item
+      providers: 7
+      share: 0.7
+      tier: core
+    - operation: UPDATE collection
+      providers: 2
+      share: 0.2
+      tier: long-tail
+    - operation: POST item
+      providers: 1
+      share: 0.1
+      tier: long-tail
+    properties:
+    - name: name
+      tier: core
+      providers: 9
+      share: 1.0
+      type: string
+      spellings:
+      - name
+      - displayName
+      - display_name
+    - name: id
+      tier: core
+      providers: 8
+      share: 0.889
+      type: string
+      spellings:
+      - id
+      - fullyQualifiedName
+    - name: description
+      tier: core
+      providers: 6
+      share: 0.667
+      type: string
+      spellings:
+      - description
+    - name: updated_at
+      tier: core
+      providers: 6
+      share: 0.667
+      type: string
+      spellings:
+      - updatedAt
+      - updated_at
+    - name: created_at
+      tier: core
+      providers: 5
+      share: 0.556
+      type: string
+      spellings:
+      - createdAt
+      - created_at
+    - name: owners
+      tier: extended
+      providers: 3
+      share: 0.333
+      type: array
+      spellings:
+      - owners
+    - name: tags
+      tier: extended
+      providers: 3
+      share: 0.333
+      type: array
+      spellings:
+      - tags
+    long_tail_count: 85
+    long_tail_sample:
+    - assets
+    - certification
+    - change_description
+    - children
+    - children_count
+    - consumes_from
+    - data_contract
+    - deleted
+    - domain_type
+    - entity_status
+    - experts
+    - extension
+    - followers
+    - href
+    - impersonated_by
+    - incremental_change_description
+    - life_cycle
+    - lifecycle_stage
+    - parent
+    - provider
+    - provides_to
+    - reviewers
+    - service
+    - sla
+    - status
+    - style
+    - updated_by
+    - usage_summary
+    - version
+    - votes
+    - abbreviation
+    - account_id
+    - all_third_party_cookies
+    - any_related_tag
+    - arn
+    - business_domain_id
+    - combined_page_status_code
+    - cookie_domain
+    - cookie_duration
+    - cookie_name

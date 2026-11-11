@@ -1,0 +1,18 @@
+provider: lakekeeper
+apis_io: https://apis.io/providers/lakekeeper/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      name: name
+      schema: schema
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/lakekeeper-catalog-api-openapi.yml#DELETE /v1/{prefix}/namespaces/{namespace}/tables/{table}
+    - openapi/_original/lakekeeper-catalog-api-openapi.yml#GET /v1/{prefix}/namespaces/{namespace}/tables
+    - openapi/_original/lakekeeper-catalog-api-openapi.yml#GET /v1/{prefix}/namespaces/{namespace}/tables/{table}
+    - openapi/_original/lakekeeper-catalog-api-openapi.yml#POST /v1/{prefix}/namespaces/{namespace}/tables
+    - openapi/_original/lakekeeper-catalog-api-openapi.yml#POST /v1/{prefix}/namespaces/{namespace}/tables/{table}

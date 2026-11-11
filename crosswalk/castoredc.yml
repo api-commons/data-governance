@@ -1,0 +1,13 @@
+provider: castoredc
+apis_io: https://apis.io/providers/castoredc/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_domain:
+    path_segment:
+    - domains
+    properties:
+      name: name
+    core_coverage: 0.2
+    evidence:
+    - openapi/_original/castoredc-openapi.yml#GET /study/{study_id}/domains

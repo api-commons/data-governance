@@ -1,0 +1,20 @@
+provider: materials-zone
+apis_io: https://apis.io/providers/materials-zone/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      id: id
+      name: title
+      asset_type: type
+      description: description
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/materials-zone-openapi.json#DELETE /tables/{tableId}
+    - openapi/_original/materials-zone-openapi.json#GET /tables
+    - openapi/_original/materials-zone-openapi.json#GET /tables/{tableId}
+    - openapi/_original/materials-zone-openapi.json#PATCH /tables/{tableId}
+    - openapi/_original/materials-zone-openapi.json#POST /tables

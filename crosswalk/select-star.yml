@@ -1,0 +1,40 @@
+provider: select-star
+apis_io: https://apis.io/providers/select-star/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - tables
+    properties:
+      id: guid
+      name: name
+      created_at: created_on
+      description: description
+      updated_at: updated_on
+      columns: columns
+      created_by: created_by
+      table_type: table_type
+      schema: schema
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/select-star-openapi.yml#GET /v1/tables/
+    - openapi/_original/select-star-openapi.yml#GET /v1/tables/{guid}/
+    - openapi/_original/select-star-openapi.yml#PATCH /v1/tables/{guid}/
+  glossary_term:
+    path_segment:
+    - terms
+    properties:
+      id: guid
+      name: name
+      definition: description
+      tags: tags
+      updated_at: updated_on
+      created_at: created_on
+    core_coverage: 1.0
+    evidence:
+    - openapi/_original/select-star-openapi.yml#DELETE /v1/terms/
+    - openapi/_original/select-star-openapi.yml#DELETE /v1/terms/{guid}/
+    - openapi/_original/select-star-openapi.yml#GET /v1/terms/
+    - openapi/_original/select-star-openapi.yml#GET /v1/terms/{guid}/
+    - openapi/_original/select-star-openapi.yml#PATCH /v1/terms/{guid}/

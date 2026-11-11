@@ -1,0 +1,17 @@
+provider: confluent
+apis_io: https://apis.io/providers/confluent/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - entity
+    properties:
+      id: guid
+      asset_type: typeName
+      tags: classifications
+      status: status
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/confluent-cloud-full.yaml#PUT /catalog/v1/entity
+    - openapi/_original/confluent-cloud-openapi.yaml#PUT /catalog/v1/entity

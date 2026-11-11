@@ -1,0 +1,19 @@
+provider: observepoint
+apis_io: https://apis.io/providers/observepoint/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_domain:
+    path_segment:
+    - domains
+    properties:
+      name: name
+      id: id
+      created_at: createdAt
+    core_coverage: 0.6
+    evidence:
+    - openapi/_original/observepoint-v2-api-openapi.yml#DELETE /domains/{domainId}
+    - openapi/_original/observepoint-v2-api-openapi.yml#GET /domains
+    - openapi/_original/observepoint-v2-api-openapi.yml#GET /domains/{domainId}
+    - openapi/_original/observepoint-v2-api-openapi.yml#POST /domains
+    - openapi/_original/observepoint-v2-api-openapi.yml#PUT /domains/{domainId}

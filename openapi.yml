@@ -1,0 +1,311 @@
+openapi: 3.1.0
+info:
+  title: Data Catalogs and Governance (API Commons)
+  version: 0.1.0-draft.20261111
+  description: 'The common Data Catalogs and Governance interface, distilled from the harvested OpenAPI of 94 providers
+    in the APIs.io catalog. Not a product: no one serves this API. It is the shape the market already shares, measured,
+    so that providers, agents and integrators can map to one vocabulary. See profile.yml.'
+  license:
+    name: CC BY-NC-SA 4.0
+    url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+paths:
+  /data-assets:
+    get:
+      operationId: listDataAssets
+      summary: List data assets
+      tags:
+      - Data Assets
+      x-commons-tier: core
+      x-commons-share: 0.739
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id001
+                  $ref: '#/components/schemas/DataAsset'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createDataAsset
+      summary: Create a data asset
+      tags:
+      - Data Assets
+      x-commons-tier: extended
+      x-commons-share: 0.478
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /data-assets/{data_asset_id}:
+    parameters:
+    - $ref: '#/components/parameters/data_asset_id'
+    get:
+      operationId: getDataAsset
+      summary: Get a data asset
+      tags:
+      - Data Assets
+      x-commons-tier: core
+      x-commons-share: 0.696
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    delete:
+      operationId: deleteDataAsset
+      summary: Delete a data asset
+      tags:
+      - Data Assets
+      x-commons-tier: extended
+      x-commons-share: 0.435
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+    patch:
+      operationId: updateDataAsset
+      summary: Update a data asset
+      tags:
+      - Data Assets
+      x-commons-tier: extended
+      x-commons-share: 0.435
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id001
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id001
+  /glossary-terms:
+    post:
+      operationId: createGlossaryTerm
+      summary: Create a glossary term
+      tags:
+      - Glossary Terms
+      x-commons-tier: core
+      x-commons-share: 0.857
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: &id002
+                $ref: '#/components/schemas/GlossaryTerm'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+    get:
+      operationId: listGlossaryTerms
+      summary: List glossary terms
+      tags:
+      - Glossary Terms
+      x-commons-tier: core
+      x-commons-share: 0.714
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: *id002
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+  /glossary-terms/{glossary_term_id}:
+    parameters:
+    - $ref: '#/components/parameters/glossary_term_id'
+    get:
+      operationId: getGlossaryTerm
+      summary: Get a glossary term
+      tags:
+      - Glossary Terms
+      x-commons-tier: core
+      x-commons-share: 0.714
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+    delete:
+      operationId: deleteGlossaryTerm
+      summary: Delete a glossary term
+      tags:
+      - Glossary Terms
+      x-commons-tier: core
+      x-commons-share: 0.571
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+    patch:
+      operationId: updateGlossaryTerm
+      summary: Update a glossary term
+      tags:
+      - Glossary Terms
+      x-commons-tier: core
+      x-commons-share: 0.571
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id002
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id002
+  /data-domains:
+    get:
+      operationId: listDataDomains
+      summary: List data domains
+      tags:
+      - Data Domains
+      x-commons-tier: core
+      x-commons-share: 0.9
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: array
+                items: &id003
+                  $ref: '#/components/schemas/DataDomain'
+      parameters:
+      - name: limit
+        in: query
+        schema:
+          type: integer
+      - name: cursor
+        in: query
+        schema:
+          type: string
+    post:
+      operationId: createDataDomain
+      summary: Create a data domain
+      tags:
+      - Data Domains
+      x-commons-tier: core
+      x-commons-share: 0.7
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id003
+  /data-domains/{data_domain_id}:
+    parameters:
+    - $ref: '#/components/parameters/data_domain_id'
+    get:
+      operationId: getDataDomain
+      summary: Get a data domain
+      tags:
+      - Data Domains
+      x-commons-tier: core
+      x-commons-share: 0.8
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+    delete:
+      operationId: deleteDataDomain
+      summary: Delete a data domain
+      tags:
+      - Data Domains
+      x-commons-tier: core
+      x-commons-share: 0.7
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+    patch:
+      operationId: updateDataDomain
+      summary: Update a data domain
+      tags:
+      - Data Domains
+      x-commons-tier: core
+      x-commons-share: 0.7
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: *id003
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: *id003
+components:
+  schemas:
+    DataAsset:
+      $ref: ./schema/data_asset.json
+    GlossaryTerm:
+      $ref: ./schema/glossary_term.json
+    DataDomain:
+      $ref: ./schema/data_domain.json
+  parameters:
+    data_asset_id:
+      name: data_asset_id
+      in: path
+      required: true
+      schema:
+        type: string
+    glossary_term_id:
+      name: glossary_term_id
+      in: path
+      required: true
+      schema:
+        type: string
+    data_domain_id:
+      name: data_domain_id
+      in: path
+      required: true
+      schema:
+        type: string

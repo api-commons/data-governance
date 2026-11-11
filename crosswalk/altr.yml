@@ -1,0 +1,20 @@
+provider: altr
+apis_io: https://apis.io/providers/altr/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - table
+    - tables
+    properties:
+      name: name
+      created_at: created_at
+      updated_at: updated_at
+    core_coverage: 0.5
+    evidence:
+    - openapi/_original/altr-classification-openapi.json#GET /jobs/{job_id}/findings/databases/{database}/schemas/{schema}/tables
+    - openapi/_original/altr-classification-openapi.yml#GET /jobs/{job_id}/findings/databases/{database}/schemas/{schema}/tables
+    - openapi/_original/altr-mapi-openapi.json#DELETE /rowaccess/database/{databaseId}/table/{tableName}
+    - openapi/_original/altr-mapi-openapi.json#GET /rowaccess/database/{databaseId}/table/{tableName}
+    - openapi/_original/altr-mapi-openapi.json#PUT /rowaccess/database/{databaseId}/table/{tableName}

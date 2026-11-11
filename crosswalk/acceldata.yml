@@ -1,0 +1,12 @@
+provider: acceldata
+apis_io: https://apis.io/providers/acceldata/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - entity
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/acceldata-tags-api-openapi.json#GET /catalog-server/api/tag-associations/entity/{entityId}

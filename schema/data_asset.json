@@ -1,0 +1,153 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/data-governance/main/schema/data_asset.json",
+  "title": "Data Asset",
+  "description": "The common data_asset in Data Catalogs and Governance, distilled from 23 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.696,
+      "x-commons-providers": 16,
+      "x-commons-spellings": [
+        "id",
+        "guid",
+        "fullyQualifiedName",
+        "uuid"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.696,
+      "x-commons-providers": 16,
+      "x-commons-spellings": [
+        "name",
+        "title",
+        "displayName",
+        "display_name"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.478,
+      "x-commons-providers": 11,
+      "x-commons-spellings": [
+        "createdAt",
+        "created_at",
+        "created_on",
+        "created",
+        "createTime"
+      ],
+      "format": "date-time"
+    },
+    "asset_type": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.435,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "type",
+        "typeName",
+        "entityType",
+        "kind",
+        "asset_type"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.435,
+      "x-commons-providers": 10,
+      "x-commons-spellings": [
+        "description",
+        "summary"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.391,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "updatedAt",
+        "updated_at",
+        "updated",
+        "updateTime",
+        "updated_on"
+      ],
+      "format": "date-time"
+    },
+    "columns": {
+      "type": "array",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.304,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "columns"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.304,
+      "x-commons-providers": 7,
+      "x-commons-spellings": [
+        "tags",
+        "classifications",
+        "labels"
+      ]
+    },
+    "created_by": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.261,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "createdBy",
+        "created_by"
+      ]
+    },
+    "table_type": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.261,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "table_type",
+        "tableType"
+      ]
+    },
+    "schema": {
+      "type": "array",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.217,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "schema"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.217,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "status"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "data-governance",
+    "concept": "data_asset",
+    "providers": 23,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}

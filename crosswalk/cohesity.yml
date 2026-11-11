@@ -1,0 +1,16 @@
+provider: cohesity
+apis_io: https://apis.io/providers/cohesity/
+context: data-governance
+generated: '2026-11-11'
+concepts:
+  data_asset:
+    path_segment:
+    - entities
+    - entity
+    properties: {}
+    core_coverage: 0.0
+    evidence:
+    - openapi/_original/cohesity-cluster-v1-openapi-original.yml#GET /public/statistics/entities
+    - openapi/_original/cohesity-cluster-v1-openapi-original.yml#PUT /public/tenants/entity
+    - openapi/_original/cohesity-cluster-v1-openapi.yml#GET /public/statistics/entities
+    - openapi/_original/cohesity-cluster-v1-openapi.yml#PUT /public/tenants/entity

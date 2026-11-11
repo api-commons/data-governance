@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-commons/data-governance/main/schema/data_domain.json",
+  "title": "Data Domain",
+  "description": "The common data_domain in Data Catalogs and Governance, distilled from 9 providers' own OpenAPI. Each property records the share of them that declare it.",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 1.0,
+      "x-commons-providers": 9,
+      "x-commons-spellings": [
+        "name",
+        "displayName",
+        "display_name"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.889,
+      "x-commons-providers": 8,
+      "x-commons-spellings": [
+        "id",
+        "fullyQualifiedName"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.667,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "description"
+      ]
+    },
+    "updated_at": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.667,
+      "x-commons-providers": 6,
+      "x-commons-spellings": [
+        "updatedAt",
+        "updated_at"
+      ],
+      "format": "date-time"
+    },
+    "created_at": {
+      "type": "string",
+      "x-commons-tier": "core",
+      "x-commons-share": 0.556,
+      "x-commons-providers": 5,
+      "x-commons-spellings": [
+        "createdAt",
+        "created_at"
+      ],
+      "format": "date-time"
+    },
+    "owners": {
+      "type": "array",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.333,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "owners"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "x-commons-tier": "extended",
+      "x-commons-share": 0.333,
+      "x-commons-providers": 3,
+      "x-commons-spellings": [
+        "tags"
+      ]
+    }
+  },
+  "required": [
+    "id"
+  ],
+  "x-commons": {
+    "context": "data-governance",
+    "concept": "data_domain",
+    "providers": 9,
+    "generated": "2026-11-11",
+    "version": "0.1.0-draft.20261111",
+    "status": "draft"
+  }
+}
